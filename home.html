@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/defualt.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <title>Home Page</title>
+</head>
+<body>
+    
+    <div class="container"><!-- start of container -->
+
+        <div class="main-content-container"><!-- start of main content container -->
+
+
+            <!-- start of nav -->
+            <nav>
+                <div class="logo">
+                    <img src="./img/Group 13.png" class="logo-image" alt="">
+                </div>
+
+
+                <div class="ham">
+                    <!-- <img class="hamImage" src="./img/hamburger.svg" alt=""> -->
+                </div>
+                
+                <div class="cover ">
+                    
+                    <div class="nav-links-for-phones " >
+                        <li><a href="">OUR COMPANY</a></li>
+                        <li><a href="">LOCATIONS</a></li>
+                        <li><a href="">CONTACT</a></li>
+            
+                    </div><!-- end of navlinks  -->
+                </div>
+
+
+                <div class="nav-links-for-laptops" style="display: none;">
+                    <li><a href="">Our Company</a></li>
+                    <li><a href="">Locations</a></li>
+                    <li><a href="">Conatct</a></li>
+                </div><!-- end of navlinks  -->
+
+            </nav>
+            <!-- end of nav -->
+
+
+            <div class="hero-section">
+                <!-- <img class="oval-in-hero__section" src="./img/Oval.png" alt=""> -->
+                <div class="hero__heading">
+                        <h1>Award-winning Custom designs and digital branding solution</h1>
+
+                        <p>with over 10 Years in the industry,we are experienced in creating fully responsive websites,app design and engaging brand experiences.
+                            Find Out about Our Services.
+                        </p>
+        
+                        <a href="" class="btn-white btn-herosection">LEARN MORE</a>  
+                </div>
+
+                <div class="hero-section-phone-conatiner">
+                    <img src="./img/black_front copy 5-1.png" alt="">
+                </div>
+            </div>
+
+
+
+            <div class="view_our_project_pane">
+                
+                <!-- start of project 1 -->
+                <div class="project project-box1">
+                    <div class="project_content">
+                        <h4>Web DESIGN</h4>
+                        <p>View Projects <img src="./img/pink-arrow-right.svg" alt=""></p>
+                    </div>
+                </div>
+                <!-- start of project 2 -->
+
+
+            </div>
+
+
+        </div><!-- end of main-content-container -->
+
+    </div>
+    <!-- end of container -->
+
+
+
+
+
+
+
+    <script>
+        let  ham = document.querySelector('.ham')
+        let cover = document.querySelector('.cover')
+        //   show-cover
+        ham.addEventListener('click',e=>{
+            e.preventDefault()
+            let img = this.document.querySelector('.hamImage')
+            e.target.classList.toggle('ham-close-pic')
+            cover.classList.toggle('show-cover')
+        })
+    </script>
+
+</body>
+</html>
