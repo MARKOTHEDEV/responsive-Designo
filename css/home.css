@@ -1,14 +1,17 @@
 
 /* 
 
-this unit shoul be in ech box
-1.6rem
-
+this unit shoul be in each box to center 
+or make it align try any of this unit
+hero section--1.6rem
+view our projectpane-- 0 1.8rem
 */
 
 
 .main-content-container{
     border: 1px solid yellow;
+    position: relative;
+
 }
 
 
@@ -53,9 +56,9 @@ nav .logo img{
   visibility:hidden;
   opacity: 0;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: rgba(0, 0, 0, 0.596);
     z-index: 43;
-    top: 10.9%;
+    top: 74px;
     left:   0;
     width: 100%;
     height: 100vh;
@@ -155,15 +158,224 @@ nav .logo img{
 
 
 .view_our_project_pane{
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     margin-top: 27% ;
-    padding: 0 1.6rem;
+    padding: 0 1.8rem;
 }
 
 .project{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
-    background: ;
+    color: white;
+    padding: 5rem .8rem;
+    text-align: center;
+    border-radius: 5px;
+    margin: 6% 0;
+    cursor: pointer;
+    /* transition: all 1s ease; */
+    
+    transition: all 1s ease;
+     
 }
 
+.project h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.project p{
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: .8rem;
+    margin-top: 2%;
+}
+.project p img{
+    margin-left: 2%;
+    
+}
+.project.project-box1{
+    background: url(/img/web-devpics.jpg)no-repeat center/cover;
+
+}
+
+.project.project-box2{
+    background: url(/img/mobile-dev-pic.jpg)no-repeat center/cover;
+
+}
+
+
+.project.project-box3{
+    background: url(/img/graphic\ desing\ pics.JPG)no-repeat center/cover;
+
+}
 /* end of our project styleing  */
+
+
+
+/* start of styling for about us pane */
+
+.about_us_pane{
+    /* border: 1px solid red; */
+    padding: 0 1.6rem;
+    margin-top: 25%;
+    margin-bottom: 10%;
+
+}
+.about_us_box{
+    width: 100%;
+    margin: 15% 0;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.about_us_images{
+    width: 50%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+.about_us_images img{
+    width: 100%;
+    height: 100%;
+}
+.about_us_content{
+    text-align: center;
+/* border: 1px solid red; */
+}
+.about_us_content h2{
+    color: b    lack;
+    padding: 1rem 0;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.about_us_content p{
+    color:var( --dark-gray) ;
+    text-align: center;
+}
+/* end of styling for about us pane */
+
+
+/* start get in touch pane */
+.get_in_touch_pane{
+    
+    background-color: var(--peach-color);
+    background-image:  url(/img/Oval.png),url(/img/Oval.png),url(/img/Oval.png);
+    background-position:-150px 210px,10px 195px, 10px -109px ;
+    background-size: 200px,320px     ,     320px;
+    background-repeat: no-repeat,no-repeat;  
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 7px;
+    padding:  1rem 2rem;
+    text-align: center;
+    color: white;
+
+    z-index:48;
+    margin-bottom: -90px;
+}
+
+
+.get_in_touch_pane h2{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.get_in_touch_pane p{
+    padding: 1rem 0;
+    padding-bottom: 1.8rem;
+}
+
+
+
+/* end get in touch pain */
+
+
+
+/* start of footer style */
+footer{
+    z-index: 1;
+    background-color: #1d1d1f;
+}
+
+
+.footer-nav-pane{
+    /* border: 1px solid red; */
+    text-align: center;
+    position: relative;
+}
+
+.footer-logo{
+    /* border: 1px solid green; */
+    width: 50%;
+    margin: 7% auto;
+    /* border-bottom: 1px solid red; */
+    /* position: relative; */
+}
+.footer-logo::after{
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    background-color: #333333;
+    /* border: 1px solid red; */
+    z-index: 1;
+    height: 1.2px;
+    width: 95%;
+   /* transform: translate(-50%,-50%); */
+}
+.footer-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer-navlinks{
+    margin-top: 14%;
+}
+.footer-navlinks li{
+    list-style-type: none;
+    padding:1rem  0;
+
+}
+.footer-navlinks a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* footer addresse style */
+
+.footer-addresses{
+    /* border: 1px solid pink; */
+    text-align: center;
+    /* margin: 5% 0; */
+    padding: 2rem 0;
+}
+.building-addresse-info{
+    color: #8f8f8f;
+}
+
+/* style the two div that are inside  this class */
+.building-addresse-info >div{
+    margin: 5% 0;
+}
+
+.building-addresse-info_text_thick{
+    font-weight: 700;
+}
+
+.social-addresse-info li{
+    list-style-type: none;
+}
+.social-addresse-info{
+    /* border: 1px solid green; */
+    margin-top: 4%;
+}
+
+.socials_links{
+    display: inline-block;
+    margin: 0 2%;
+}
+
+
+
+/* end of footer style */
