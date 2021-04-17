@@ -29,7 +29,7 @@ body{
     display: inline-block;
     text-decoration: none;
     /* outline: none; */
-    color: black;
+    color: var( --dark-gray);
     background-color: var( --white-color);
     padding: .9rem 1.5rem;
     font-size: .9rem;
@@ -46,6 +46,6 @@ body{
 
 
 .onhoverScale:hover{
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
     transform: scale(1.1);
 }
