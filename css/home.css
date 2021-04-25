@@ -39,13 +39,13 @@ nav .logo img{
 .ham{
     width: 7%;
     cursor: pointer;
-    background: url(/img/hamburger.svg) no-repeat center;
+    background: url(../img/hamburger.svg) no-repeat center;
     /* border: 1px solid green; */
     height:20px;
 
 }
 .ham.ham-close-pic{
-    background: url(/img/hamburger-close.svg)no-repeat center;
+    background: url(../img/hamburger-close.svg)no-repeat center;
 
 }
 .ham img{
@@ -109,7 +109,7 @@ nav .logo img{
     padding: 0 1.6rem;
     padding-top: 2rem;
 
-    background-image: url(/img/Oval.png);
+    background-image: url(../img/Oval.png);
     background-repeat: no-repeat;
     background-position-y: 49%;
 }
@@ -198,18 +198,18 @@ nav .logo img{
     
 }
 .project.project-box1{
-    background: url(/img/web-devpics.jpg)no-repeat center/cover;
+    background: url(../img/web-devpics.jpg)no-repeat center/cover;
 
 }
 
 .project.project-box2{
-    background: url(/img/mobile-dev-pic.jpg)no-repeat center/cover;
+    background: url(../img/mobile-dev-pic.jpg)no-repeat center/cover;
 
 }
 
 
 .project.project-box3{
-    background: url(/img/graphic\ desing\ pics.JPG)no-repeat center/cover;
+    background: url(../img/graphic\ desing\ pics.JPG)no-repeat center/cover;
 
 }
 /* end of our project styleing  */
@@ -263,7 +263,7 @@ nav .logo img{
 .get_in_touch_pane{
     
     background-color: var(--peach-color);
-    background-image:  url(/img/Oval.png),url(/img/Oval.png),url(/img/Oval.png);
+    background-image:  url(../img/Oval.png),url(../img/Oval.png),url(../img/Oval.png);
     background-position:-150px 210px,10px 195px, 10px -109px ;
     background-size: 200px,320px     ,     320px;
     background-repeat: no-repeat,no-repeat;  
@@ -533,7 +533,7 @@ footer{
 
     .get_in_touch_pane{
         padding: 3.6rem 2.6rem;
-        background-image: url(/img/multiple-oval.png);
+        background-image: url(../img/multiple-oval.png);
         background-position:-95px 0px;
         background-size:cover;
         background-repeat: no-repeat;  
@@ -636,7 +636,7 @@ footer{
             rgba(0, 0, 0, 0.637),
 
             rgba(0, 0, 0, 0.637)
-        ),url('/img/dillon-shook-mY3_bvR74fI-unsplash(1).jpg')no-repeat center/cover;
+        ),url('../img/dillon-shook-mY3_bvR74fI-unsplash(1).jpg')no-repeat center/cover;
         /* filter: grayscale(0); */
     
         /* align-self: center; */
