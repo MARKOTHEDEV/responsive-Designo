@@ -2,7 +2,6 @@
 
 
 /* start ofourcompany_about_us style */
-
 .ourcompany_about_us{
     /* border:  1px solid red; */
 }
@@ -44,6 +43,7 @@
     background: url('../img/prettyGirl.jpg')no-repeat center/cover;
     width: 100%;
     height: 50vh;
+    /* border: 1px solid red; */
 }
 
 
@@ -76,6 +76,7 @@
 .locations_pane{
     /* border: 1px solid red; */
     text-align: center;
+    width: 100%;
 } 
 .location_box{
     margin: 5% 0;
@@ -90,6 +91,14 @@
     font-weight: 500;
 }
 .location_box_image{
+    width: 40%;
+    /* border: 1px solid red; */
+    margin:  0 auto;
+} 
+
+.location_box_image img{
+    width: 100%;
+    height: 100%;
 
 } 
 /* end of loctions pane */
@@ -132,4 +141,38 @@
 }
 
 /* end of ourcompany_real_deal */
+
+
+@media screen and (min-width:500px) {
+    
+    .curve-image{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 40vh;
+    }
+    .curve-content  {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .ourcompany_about_us_content{
+        margin-bottom: 15%;
+        background-size: 600px;
+        background-position-x: -280px;
+        background-position-y: -240px;
+    }
+
+
+    /* our company talent */
+
+    .ourcompany_world_class_talent__content,.ourcompany_real_deal__content{
+        background-image: url('../img/white\ balls.png');
+        background-size: 300px;
+        background-repeat: no-repeat;
+        /* background-position-y: 130px; */
+    }
+
+    /* end  our company talent */
+
+}
 
