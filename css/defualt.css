@@ -7,6 +7,7 @@ html{
     --dark-gray:#333136;
     --white-color:#ffffff;
     --light-gray:#f3f5f6;
+    --transparent-pink:#fbf0ee;
 
 
 }
@@ -25,7 +26,7 @@ body{
 }
 
 
-.btn-white{
+.btn-white,.btn-pink{
     display: inline-block;
     text-decoration: none;
     /* outline: none; */
@@ -43,6 +44,18 @@ body{
     color: var(--light-gray);
     background-color: var(--light-peach-color);
 }
+
+
+.btn-pink{
+    color: var(--white-color);
+    background-color: var( --peach-color);
+}
+
+.btn-pink:hover{
+    background-color: var(--light-peach-color);
+}
+
+
 
 
 .onhoverScale:hover{
