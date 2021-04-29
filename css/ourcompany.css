@@ -143,10 +143,102 @@ margin-bottom: 15%;
 }
 
 
-@media screen and (min-width:900px){
+@media screen and (min-width:800px){
+    .curve-image{
+        border-radius: 0;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .curve-content{
+        border-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    .ourcompany_about_us,.ourcompany_world_class_talent,.ourcompany_real_deal{
+        display: flex;
+        flex-direction: row-reverse;
+        border-radius: 1px solid red;
+        height: 400px;
+        align-items: center;
+    }   
+    .ourcompany_about_us_image,.ourcompany_world_class_talent__image,.ourcompany_real_deal__image{
+            height: 100%;
+            width: 40%;
+    }
+    .ourcompany_about_us_content,.ourcompany_world_class_talent__content,.ourcompany_real_deal__content{
+        height: 100%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0rem 3rem;
+        text-align: left;
+        background-size: 800px;
+        background-position-x: -247px;
+        background-position-y: -204px;
+    }
+    .ourcompany_about_us__header{
+        font-size: 3em;
+    }
 
- /* .ourcompany_about_us{
-     display: flex;
- }    */
 
+
+    /* .ourcompany_world_class_talent__content  main styling area */
+   
+   
+    .ourcompany_world_class_talent,.ourcompany_real_deal{
+        display: flex;
+        flex-direction: row;
+        height:600px ;
+    }
+
+    .ourcompany_world_class_talent__content,.ourcompany_real_deal__content{
+        padding: 1rem 5rem;
+
+    }
+
+   .ourcompany_world_class_talent__image.curve-image{
+        border-radius: 0;    
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+
+
+    .ourcompany_world_class_talent__content.curve-content{
+        border-radius: 0;    
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+    }
+
+    .ourcompany_world_class_talent__header{
+        font-size: 2.3rem;
+        /* font-weight: 600; */
+    }
+    /* end of .ourcompany_world_class_talent__content  main styling area */
+
+
+  
+
+    .ourcompany_real_deal{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+
+
+    /* locations stlyling */
+    .locations_pane{
+        display: flex;
+        /* border: 1px solid re d ; */
+        justify-content: space-between;
+        align-items: center;
+        /* justify-content: center;         */
+    }
+    .location_box{
+        margin: 0;
+        width: 100%;
+    }
+    /* end of locations styling */
 }
