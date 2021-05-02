@@ -97,6 +97,7 @@ Because the are alike
     .view_our_project_pane{
         display: flex;
         flex-direction: row;
+        margin-top: 10px;
     }
     .project{
         width: 50%;
@@ -219,6 +220,7 @@ Because the are alike
         display: grid;
         grid-column-gap:  40px;
         grid-template-columns: repeat(3,1fr);
+        margin: 10% 0;
     }
 
 }
