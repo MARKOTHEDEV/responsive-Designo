@@ -109,13 +109,14 @@ Because the are alike
 
 
     .myWork_page_intro{
-        background-image: url(../img/multiple-oval.png);
+        /* background-image: url(../img/multiple-oval.png); */
         border-radius: 15px;
 
         /* padding: 3.6rem 2.6rem; */
-        background-image: url(../img/multiple-oval.png);
+        background-image: url(../img/oval-pics.png);
         background-position: -95px 0px;
         background-size: cover;
+        background-position-x: -300px;
         background-repeat: no-repeat;
     }
 
