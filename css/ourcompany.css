@@ -1,0 +1,244 @@
+
+/* start of loctions pane */
+.locations_pane{
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 100%;
+} 
+.location_box{
+    margin: 5% 0;
+    /* border: 1px solid red; */
+    padding: 1rem 0;
+} 
+.location_header{
+    font-size: 1.3rem;
+    color: var(--dark-gray);
+    letter-spacing: .4rem;
+    padding: .9rem 0;
+    font-weight: 500;
+}
+.location_box_image{
+    width: 40%;
+    /* border: 1px solid red; */
+    margin:  0 auto;
+} 
+
+.location_box_image img{
+    width: 100%;
+    height: 100%;
+
+} 
+/* end of loctions pane */
+
+
+/* ourcompany_about_us style */
+.ourcompany_about_us{
+    color: white;
+}
+
+.ourcompany_about_us_image{
+background: url(../img/working.jpg) no-repeat center/cover;
+    height: 300px;
+    width: 100%;
+}
+.ourcompany_about_us_content{
+    background-color: var(--peach-color);
+    padding: 3.5rem 1rem;
+    text-align: center;
+    background-image: url(../img/oval-buttom-thick.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position-x: 5px;
+    background-position-y: -150px;
+
+
+}
+
+.ourcompany_about_us__header{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* end ourcompany_about_us style */
+
+/* start of ourcompany_world_class  */
+.ourcompany_world_class_talent{
+}
+.ourcompany_world_class_talent__image,
+.ourcompany_real_deal__image
+{
+    background: url(../img/prettyGirl.jpg)no-repeat center/cover ;
+    height: 300px;
+
+}
+.ourcompany_world_class_talent__content,
+.ourcompany_real_deal__content
+{
+    background-color: #fdf3f1;
+    padding: 1rem .9rem;
+    text-align: center;
+    padding: 3.5rem .8rem;
+    background-image: url(../img/transparentOval-2.svg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+
+}
+
+.ourcompany_world_class_talent__content p {
+    color: var(--dark-gray);
+    padding: 1rem 0;
+}
+.ourcompany_real_deal__content p {
+    color: var(--dark-gray);
+    padding: 1rem 0;
+}
+.ourcompany_world_class_talent__header,
+.ourcompany_real_deal__header
+{
+    color: var(--peach-color);
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 3% 0;
+}
+
+
+/* end of ourcompany_world_class  */
+
+/* start of ourcompany_real_deal */
+.ourcompany_real_deal{
+margin-bottom: 15%;
+}
+
+.ourcompany_real_deal__image{
+    background-image: url(../img/realDeal.jpg);
+}
+
+/* end of ourcompany_real_deal */
+
+
+
+@media screen and (min-width:500px){
+    .curve-image{
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .curve-content{
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+.ourcompany_about_us,.ourcompany_world_class_talent,.ourcompany_real_deal {
+    margin: 15% 0;
+}
+
+
+.ourcompany_about_us_content{
+    background-size: 550px;
+    background-position-x: -255px;
+    background-position-y: -205px;
+
+}
+
+
+}
+
+
+@media screen and (min-width:800px){
+    .curve-image{
+        border-radius: 0;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .curve-content{
+        border-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    .ourcompany_about_us,.ourcompany_world_class_talent,.ourcompany_real_deal{
+        display: flex;
+        flex-direction: row-reverse;
+        border-radius: 1px solid red;
+        height: 400px;
+        align-items: center;
+    }   
+    .ourcompany_about_us_image,.ourcompany_world_class_talent__image,.ourcompany_real_deal__image{
+            height: 100%;
+            width: 40%;
+    }
+    .ourcompany_about_us_content,.ourcompany_world_class_talent__content,.ourcompany_real_deal__content{
+        height: 100%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0rem 3rem;
+        text-align: left;
+        background-size: 800px;
+        background-position-x: -247px;
+        background-position-y: -204px;
+    }
+    .ourcompany_about_us__header{
+        font-size: 3em;
+    }
+
+
+
+    /* .ourcompany_world_class_talent__content  main styling area */
+   
+   
+    .ourcompany_world_class_talent,.ourcompany_real_deal{
+        display: flex;
+        flex-direction: row;
+        height:600px ;
+    }
+
+    .ourcompany_world_class_talent__content,.ourcompany_real_deal__content{
+        padding: 1rem 5rem;
+
+    }
+
+   .ourcompany_world_class_talent__image.curve-image{
+        border-radius: 0;    
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+
+
+    .ourcompany_world_class_talent__content.curve-content{
+        border-radius: 0;    
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+    }
+
+    .ourcompany_world_class_talent__header{
+        font-size: 2.3rem;
+        /* font-weight: 600; */
+    }
+    /* end of .ourcompany_world_class_talent__content  main styling area */
+
+
+  
+
+    .ourcompany_real_deal{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+
+
+    /* locations stlyling */
+    .locations_pane{
+        display: flex;
+        /* border: 1px solid re d ; */
+        justify-content: space-between;
+        align-items: center;
+        /* justify-content: center;         */
+    }
+    .location_box{
+        margin: 0;
+        width: 100%;
+    }
+    /* end of locations styling */
+}
