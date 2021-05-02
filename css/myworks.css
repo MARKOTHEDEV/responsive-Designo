@@ -85,9 +85,24 @@ Because the are alike
     color: white;
 }
 
+.view_our_project_pane{
+    display: flex;
+    flex-direction: column;
+}
+.project{
+    width: 100%;
+}
 
-
-
+@media screen and (min-width:900px){
+    .view_our_project_pane{
+        display: flex;
+        flex-direction: row;
+    }
+    .project{
+        width: 50%;
+        /* border: 1px solid red; */
+    }
+}
 
 @media screen and (min-width:700px) {
 
