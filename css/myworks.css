@@ -1,0 +1,209 @@
+
+
+
+/* this css will take care of the repeated 
+the html pages such as web Designs,app Designs 
+and Graphics desigs pages
+
+Because the are alike
+*/
+
+.curve-image{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.curve-content{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.myWork_page_intro{
+    background-color: var( --peach-color);
+    text-align: center;
+    color: white;
+    padding: 6rem .4rem;
+    background-image: url(../img/oval-buttom-thick.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position-x: -43px;
+    background-position-y: -20px;
+}
+
+.myWork_page_intro h1{
+    padding: 1rem 0;
+    font-weight: 500;
+    /* font-size: 1.5rem; */
+}
+
+
+.container_for_all_myWork{
+    margin: 20% 0;
+    padding: 0 1.2rem;
+    /* border: 1px solid red; */
+
+}
+.myWork_box{
+    background-color: var(--transparent-pink);
+    /* border: 1px solid red; */
+    margin: 9% 0;
+    transition: all 1s ease-in-out;
+}
+.myWork_box img{
+    width: 100%;
+    height: 50%;
+}
+
+.myWork_box_content_pane{
+    /* border: 1px solid red; */
+    
+    padding: 1.3rem  1.2rem;
+    text-align: center;
+}
+
+.myWork_box_heading{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--peach-color);
+    letter-spacing: 5px;
+}
+
+.myWork_box_content{
+    padding: .7rem 0;
+    color: var(--dark-gray);
+}
+.myWork_box:hover{
+    cursor: pointer;
+    background-color: var(--peach-color);
+    color: white;
+}
+.myWork_box:hover .myWork_box_content{
+    color: white;
+}
+.myWork_box:hover .myWork_box_heading{
+    color: white;
+}
+
+
+
+
+
+@media screen and (min-width:700px) {
+
+
+    .myWork_page_intro{
+        background-image: url(../img/multiple-oval.png);
+        border-radius: 15px;
+
+        /* padding: 3.6rem 2.6rem; */
+        background-image: url(../img/multiple-oval.png);
+        background-position: -95px 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .myWork_page_intro h1{
+        font-size: 3rem;
+    }
+
+.myWork_page_intro p{
+    /* border: 1px solid red; */
+    width: 30%;
+    margin: 0 auto;
+    color: var(--light-gray);
+    font-size: .9rem;
+}
+    
+
+    .myWork_box{
+        display: flex;
+        align-items: center;
+    }  
+    .myWork_box img{
+        width: 50%;
+        /* border:1px solid red ; */
+        
+        height: 100%;
+    }
+    
+    .myWork_box_content_pane{
+        width: 50%;
+    }
+    
+    .curve-image{
+        border-radius: 0;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .curve-content{
+        border-bottom-left-radius: 15px;
+        border-radius:0 ;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+    
+      .myWork_box.curve-image{
+        border-radius: 0;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+
+    }
+
+
+}
+
+
+
+
+
+@media screen and (min-width:900px) {
+
+    .curve-image{
+        border-radius: 0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .curve-content{
+        border-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .myWork_box.curve-image{
+        border-radius: 0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+
+    }
+    .myWork_box.curve-content{
+        border-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    .myWork_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }  
+
+    .myWork_box img{
+        width: 100%;
+        
+        height: 80%;
+    }
+    
+    .myWork_box_content_pane{
+        width: 100%;
+    }
+
+    .container_for_all_myWork{
+        display: grid;
+        grid-column-gap:  40px;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
