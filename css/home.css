@@ -168,6 +168,7 @@ view our projectpane-- 0 1.8rem
 }
 
 .project{
+    display: block;
     /* border: 1px solid red; */
     width: 100%;
     color: white;
