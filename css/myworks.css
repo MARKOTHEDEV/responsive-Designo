@@ -195,7 +195,11 @@ Because the are alike
 
     }
 
-    
+    .myWork_box.curve-content{
+        /* border-radius: 0; */
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
     .myWork_box{
         display: flex;
         flex-direction: column;
