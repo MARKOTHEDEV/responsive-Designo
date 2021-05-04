@@ -168,10 +168,12 @@ view our projectpane-- 0 1.8rem
 }
 
 .project{
+    display: block;
     /* border: 1px solid red; */
     width: 100%;
     color: white;
     padding: 5rem .8rem;
+    text-decoration: none;
     text-align: center;
     border-radius: 5px;
     margin: 6% 0;
