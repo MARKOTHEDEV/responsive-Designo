@@ -1,0 +1,91 @@
+
+
+.contact_us_intro_content_pane{
+    background-color: var(--peach-color);
+    padding: 1.5rem .8rem;
+    /* border: 1px solid red; */
+    margin-bottom: 25%;
+        background-image:url(../img/Oval.png);
+    background-size: 300px ;
+    background-position-x: -120px ; 
+
+    background-repeat:repeat-x;
+ 
+}
+
+
+
+
+
+
+.contact_us_intro_content__content_container{
+    text-align: center;
+    padding: 1.4rem 0;
+    /* background-image: ; */
+}
+
+.contact_us_intro_content__header{
+    color:var(--white-color);
+    font-weight: 500;
+    margin-bottom: 7%;
+    font-size: 2.2rem;
+}
+
+.contact_us_intro_content{
+    color: var(--light-gray);   
+}
+
+/* start of form styling */
+
+.contact_us_form_container{
+    padding: .7rem .8rem;
+    /* border: 1px solid red; */
+
+}
+
+
+.input_box input,textarea{
+    font-family: 'Jost', sans-serif;
+
+    width: 100%;
+    background-color: transparent;
+    border: transparent;
+    padding: 1rem .8rem;
+    color: white;
+    cursor: pointer;
+    margin: 1% 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    outline: none;
+}
+
+
+::placeholder{
+    /* font-family: 'Jost', sans-serif; */
+    color: var(--light-gray);
+    font-size: 1rem;
+    font-weight: 300;
+    
+}
+.input_box input,textarea{
+    border-bottom: 1px solid white;
+    cursor: pointer; 
+ 
+}
+input:focus,textarea:focus {
+    border-bottom: 3px solid white;
+
+}
+
+
+/* style for form  contact button */
+.btn-submit-contact{
+    display: block;
+    margin: 0% auto;
+    margin-top: 10%;
+    width: 40%;
+    padding: 1.2rem 1.5rem;
+}
+/* end style for form  contact button */
+
+/* end of form styling */
