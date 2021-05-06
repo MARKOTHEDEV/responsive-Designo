@@ -42,7 +42,25 @@
     /* border: 1px solid red; */
 
 }
+.input_box{
+    position: relative;   
+    /* border: 1px solid red; */
+  
+}
+.input_box .message{
+    color: white;
+    font-family: cursive;
+    display: inline-flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
 
+    position: absolute;
+    top: 38%;
+    right: 1%;
+}
+.input_box .message img{
+    margin-left: 10px;
+}
 
 .input_box input,textarea{
     font-family: 'Jost', sans-serif;

@@ -80,13 +80,15 @@
                 <!-- start of contact_us_form_container -->
                 <div class="contact_us_form_container" >
                     <form action="" id="contact_us_form">
+                        
 
                         <!-- start of input_box -->
                         <div class="input_box">
-                            <input type="text" name="" id="text" placeholder="Name">
+                            <input type="text" name="" id="name" placeholder="Name">
+                            <!-- <div class="message">can't be empty<img src="./img/alert-error.svg" alt=""></div> -->
                         </div>
                         <!-- end of input_box -->
-
+                        
                         <!-- start of input_box -->
                         <div class="input_box">
                             <input type="text" name="" id="email" placeholder="Email Addresse">
@@ -260,19 +262,7 @@
 
 
     <script src="./js/anime.js"></script>
-    <script src="./js/hamburger.js"></script>
-    <script>
-        let  ham = document.querySelector('.ham')
-        let cover = document.querySelector('.cover')
-        //   show-cover
-        ham.addEventListener('click',e=>{
-            e.preventDefault()
-            let img = this.document.querySelector('.hamImage')
-            e.target.classList.toggle('ham-close-pic')
-            cover.classList.toggle('show-cover')
-        })
-    </script>
-    
+    <script src="./js/hamburger.js"></script>    
     <script src="./js/form.js"></script>
 
 </body>
