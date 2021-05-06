@@ -89,3 +89,47 @@ input:focus,textarea:focus {
 /* end style for form  contact button */
 
 /* end of form styling */
+
+
+
+@media screen and (min-width:500px) {
+    .contact_us_intro_content_pane{
+        border-radius: 10px;
+        background-image: url(../img/oval-buttom-thick.png);
+        background-repeat: no-repeat;
+        background-size: 700px;
+        background-position-x: -300px;
+        background-position-y: -10px;
+    }
+
+    .btn-submit-contact{
+        margin: 0;
+        margin-top: 5%;
+        margin-left:auto;
+    
+    }
+
+}
+
+@media screen and (min-width:900px) {
+    .contact_us_intro_content_pane{
+        display: flex;
+        /* flex-direction: row-reverse; */
+        align-items: center;
+        justify-content: center;
+        background-size: 800px;
+        background-position-x: -180px;
+    }
+
+    .contact_us_form_container{
+        width: 50%;
+        align-items: center;
+        justify-content: left;
+    }
+    
+    .contact_us_intro_content__content_container{
+        width: 50%;
+        text-align: left;
+        padding: 1rem 1.5rem;
+    }
+}
