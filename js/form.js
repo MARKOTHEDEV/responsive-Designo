@@ -16,8 +16,7 @@ class UI{
     // this fucntion checks for any field that is empty if empty it send a error message to the form
     checkRequiredFields(){
         if(this.email.value === ''){
-            //send error message to email
-            // console.log('Yo')
+     
             this.sendErrorMessage(this.email)
         }
         if(this.name.value === ''){
