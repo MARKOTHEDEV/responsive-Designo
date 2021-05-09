@@ -1,0 +1,153 @@
+
+
+.contact_us_intro_content_pane{
+    background-color: var(--peach-color);
+    padding: 1.5rem .8rem;
+    /* border: 1px solid red; */
+    margin-bottom: 25%;
+        background-image:url(../img/Oval.png);
+    background-size: 300px ;
+    background-position-x: -120px ; 
+
+    background-repeat:repeat-x;
+ 
+}
+
+
+
+
+
+
+.contact_us_intro_content__content_container{
+    text-align: center;
+    padding: 1.4rem 0;
+    /* background-image: ; */
+}
+
+.contact_us_intro_content__header{
+    color:var(--white-color);
+    font-weight: 500;
+    margin-bottom: 7%;
+    font-size: 2.2rem;
+}
+
+.contact_us_intro_content{
+    color: var(--light-gray);   
+}
+
+/* start of form styling */
+
+.contact_us_form_container{
+    padding: .7rem .8rem;
+    /* border: 1px solid red; */
+
+}
+.input_box{
+    position: relative;   
+    /* border: 1px solid red; */
+  
+}
+.input_box .message{
+    color: white;
+    font-family: cursive;
+    display: inline-flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+
+    position: absolute;
+    top: 38%;
+    right: 1%;
+}
+.input_box .message img{
+    margin-left: 10px;
+}
+
+.input_box input,textarea{
+    font-family: 'Jost', sans-serif;
+
+    width: 100%;
+    background-color: transparent;
+    border: transparent;
+    padding: 1rem .8rem;
+    color: white;
+    cursor: pointer;
+    margin: 1% 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    outline: none;
+}
+
+
+::placeholder{
+    /* font-family: 'Jost', sans-serif; */
+    color: var(--light-gray);
+    font-size: 1rem;
+    font-weight: 300;
+    
+}
+.input_box input,textarea{
+    border-bottom: 1px solid white;
+    cursor: pointer; 
+ 
+}
+input:focus,textarea:focus {
+    border-bottom: 3px solid white;
+
+}
+
+
+/* style for form  contact button */
+.btn-submit-contact{
+    display: block;
+    margin: 0% auto;
+    margin-top: 10%;
+    width: 40%;
+    padding: 1.2rem 1.5rem;
+}
+/* end style for form  contact button */
+
+/* end of form styling */
+
+
+
+@media screen and (min-width:500px) {
+    .contact_us_intro_content_pane{
+        border-radius: 10px;
+        background-image: url(../img/oval-buttom-thick.png);
+        background-repeat: no-repeat;
+        background-size: 700px;
+        background-position-x: -300px;
+        background-position-y: -10px;
+    }
+
+    .btn-submit-contact{
+        margin: 0;
+        margin-top: 5%;
+        margin-left:auto;
+    
+    }
+
+}
+
+@media screen and (min-width:900px) {
+    .contact_us_intro_content_pane{
+        display: flex;
+        /* flex-direction: row-reverse; */
+        align-items: center;
+        justify-content: center;
+        background-size: 800px;
+        background-position-x: -180px;
+    }
+
+    .contact_us_form_container{
+        width: 50%;
+        align-items: center;
+        justify-content: left;
+    }
+    
+    .contact_us_intro_content__content_container{
+        width: 50%;
+        text-align: left;
+        padding: 1rem 1.5rem;
+    }
+}

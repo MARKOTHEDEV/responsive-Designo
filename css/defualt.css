@@ -38,6 +38,7 @@ body{
     text-align: center;
     cursor: pointer;
     transition: all .3s ease; 
+    border: transparent;
 }
 
 .btn-white:hover{

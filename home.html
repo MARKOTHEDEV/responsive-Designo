@@ -42,7 +42,7 @@
                     <div class="nav-links-for-phones" >
                         <li><a href="ourcompany.html">OUR COMPANY</a></li>
                         <li><a href="">LOCATIONS</a></li>
-                        <li><a href="">CONTACT</a></li>
+                        <li><a href="contactUs.html">CONTACT</a></li>
             
                     </div><!-- end of navlinks  -->
                 </div>
@@ -51,7 +51,7 @@
                 <div class="nav-links-for-laptops" >
                     <li><a href="ourcompany.html">OUR COMPANY</a></li>
                         <li><a href="">LOCATIONS</a></li>
-                        <li><a href="">CONTACT</a></li>
+                        <li><a href="contactUs.html">CONTACT</a></li>
                 </div><!-- end of navlinks  -->
 
             </nav>
@@ -282,17 +282,8 @@
 
 
     <script src="./js/anime.js"></script>
-    <script>
-        let  ham = document.querySelector('.ham')
-        let cover = document.querySelector('.cover')
-        //   show-cover
-        ham.addEventListener('click',e=>{
-            e.preventDefault()
-            let img = this.document.querySelector('.hamImage')
-            e.target.classList.toggle('ham-close-pic')
-            cover.classList.toggle('show-cover')
-        })
-    </script>
+    <script src="./js/hamburger.js"></script>    
+
 
 </body>
 </html>
